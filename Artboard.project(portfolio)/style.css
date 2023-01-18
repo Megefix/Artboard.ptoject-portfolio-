@@ -126,6 +126,9 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+.partners1 {
+  display: none;
+}
 .partner {
   margin-left: 20%;
 }
@@ -275,7 +278,7 @@ body {
 }
 @media screen and (max-width: 426px) {
   .block {
-    width: 426px;
+    width: 425px;
     height: 540px;
   }
   .header {
@@ -351,5 +354,15 @@ body {
   }
   .partners__button {
     width: 400px;
+  }
+  .partners {
+    display: none;
+  }
+  .partners1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .partner__img {
+    margin-left: 11%;
   }
 }
